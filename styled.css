@@ -1,0 +1,116 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  color: #fff;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #16a085;
+}
+
+/* Clock and searched city */
+#clock {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #f1c40f;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#searched-city {
+  font-size: 1.2rem;
+  color: #1abc9c;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Weather section */
+.weather {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-info {
+  font-size: 2rem;
+  color: #1abc9c;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Horizontal bottle container */
+#bottle-container {
+  position: relative;
+  width: 350px;
+  height: 60px;
+  margin: 20px auto;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 50px; /* Fully rounded */
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Fluid inside the bottle */
+#cigarette-meter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0; /* Start empty */
+  background: green;
+  transition: width 2s ease-in-out, background 1s ease;
+}
+
+/* Recommendation */
+#recommendation {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  font-style: italic;
+  color: #f39c12;
+}

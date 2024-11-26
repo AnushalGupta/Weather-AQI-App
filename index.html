@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather and AQI</title>
+  <link rel="stylesheet" href="styled.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather and AQI Info</h1>
+    <p id="clock"></p> <!-- Real-time clock -->
+    <input type="text" id="city-input" placeholder="Enter city name">
+    <p id="searched-city"></p> <!-- Display the searched city -->
+    <button id="fetch-button">Get Info</button>
+    
+    
+    <div class="weather">
+      <h2>Weather</h2>
+      <div id="weather-info" class="weather-info">Enter a city to get the temperature.</div>
+    </div>
+
+    <div class="aqi">
+      <h2>Air Quality Index (AQI)</h2>
+      <p id="aqi-info">Enter a city to get the AQI.</p>
+      <div id="bottle-container">
+        <div id="cigarette-meter"></div>
+      </div>
+      <p id="recommendation"></p> <!-- AQI-based recommendations -->
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
