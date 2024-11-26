@@ -56,7 +56,7 @@ A simple web application that provides real-time weather information and Air Qua
 
 ## 🎨 Demo
 
-![App Screenshot](demo-image-url)
+![App Screenshot](http://127.0.0.1:5500/index.html)
 
 ---
 
