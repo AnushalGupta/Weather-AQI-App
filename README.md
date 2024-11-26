@@ -81,11 +81,6 @@ A simple web application that provides real-time weather information and Air Qua
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
----
 
 ## 🌟 Acknowledgements
 
@@ -96,4 +91,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## 📧 Contact
 
-For any inquiries or feedback, please contact: [your-email@example.com]
+For any inquiries or feedback, please contact: [anushal7744@gmail.com]
